@@ -1,0 +1,15 @@
+E:\cstudy\csharp\day01\HelloWorld\bin\Debug\net8.0\HelloWorld.exe
+E:\cstudy\csharp\day01\HelloWorld\bin\Debug\net8.0\HelloWorld.deps.json
+E:\cstudy\csharp\day01\HelloWorld\bin\Debug\net8.0\HelloWorld.runtimeconfig.json
+E:\cstudy\csharp\day01\HelloWorld\bin\Debug\net8.0\HelloWorld.dll
+E:\cstudy\csharp\day01\HelloWorld\bin\Debug\net8.0\HelloWorld.pdb
+E:\cstudy\csharp\day01\HelloWorld\obj\Debug\net8.0\HelloWorld.GeneratedMSBuildEditorConfig.editorconfig
+E:\cstudy\csharp\day01\HelloWorld\obj\Debug\net8.0\HelloWorld.AssemblyInfoInputs.cache
+E:\cstudy\csharp\day01\HelloWorld\obj\Debug\net8.0\HelloWorld.AssemblyInfo.cs
+E:\cstudy\csharp\day01\HelloWorld\obj\Debug\net8.0\HelloWorld.csproj.CoreCompileInputs.cache
+E:\cstudy\csharp\day01\HelloWorld\obj\Debug\net8.0\HelloWorld.sourcelink.json
+E:\cstudy\csharp\day01\HelloWorld\obj\Debug\net8.0\HelloWorld.dll
+E:\cstudy\csharp\day01\HelloWorld\obj\Debug\net8.0\refint\HelloWorld.dll
+E:\cstudy\csharp\day01\HelloWorld\obj\Debug\net8.0\HelloWorld.pdb
+E:\cstudy\csharp\day01\HelloWorld\obj\Debug\net8.0\HelloWorld.genruntimeconfig.cache
+E:\cstudy\csharp\day01\HelloWorld\obj\Debug\net8.0\ref\HelloWorld.dll
