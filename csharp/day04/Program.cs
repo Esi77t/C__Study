@@ -8,20 +8,61 @@ class Program
     static void Main(string[] args)
     {
 
-        Player player = new Player("주인공", 80, 80, 129);
+        Player player = new Player("주인공", 80, 30, 129);
         Enemy enemy = new Enemy("괴물곰", 40, 30, 210);
+
+        // while (player.GetCurrentHP() > 0 && enemy.GetCurrentHP() > 0)
+        // {
+        //     Console.WriteLine($"\n{player.GetName()}(이)가 {enemy.GetName()}에게 공격합니다.\n");
+        //     player.Attack(enemy);
+
+        //     if (enemy.GetCurrentHP() <= 0)
+        //     {
+        //         break;
+        //     }
+
+        //     Console.WriteLine($"{enemy.GetName()} HP : {enemy.GetCurrentHP()}/{enemy.GetMaxHP()}\n");
+
+        //     Console.WriteLine($"\n{enemy.GetName()}(이)가 {player.GetName()}에게 공격합니다.\n");
+        //     enemy.Attack(player);
+
+        //     Console.WriteLine($"{player.GetName()} HP : {player.GetCurrentHP()}/{player.GetMaxHP()}\n");
+        // }
 
         while (player.GetCurrentHP() > 0 && enemy.GetCurrentHP() > 0)
         {
-            Console.WriteLine($"\n{player.GetName()}(이)가 {enemy.GetName()}에게 공격합니다.\n");
-            player.Attack(enemy);
+
+            bool isPlayerTurn = false;
+            while (!isPlayerTurn)
+            {
+                Console.WriteLine("\n행동을 선택하세요\n");
+                Console.WriteLine("\n(1) 공격 | (2) 회복\n");
+                string selected = Console.ReadLine();
+
+                switch (selected)
+                {
+                    case "1":
+                        Console.WriteLine($"\n{player.GetName()}(이)가 {enemy.GetName()}에게 공격합니다.\n");
+                        player.Attack(enemy);
+                        Console.WriteLine($"{enemy.GetName()} HP : {enemy.GetCurrentHP()}/{enemy.GetMaxHP()}\n");
+                        isPlayerTurn = true;
+                        break;
+                    case "2":
+                        Console.WriteLine($"\n{player.GetName()}(이)가 회복합니다..\n");
+                        player.Heal();
+                        Console.WriteLine($"{player.GetName()} HP : {player.GetCurrentHP()}/{player.GetMaxHP()}\n");
+                        isPlayerTurn = true;
+                        break;
+                    default:
+                        Console.WriteLine($"\n다시 입력해주세요.\n");
+                        break;
+                }
+            }
 
             if (enemy.GetCurrentHP() <= 0)
             {
                 break;
             }
-
-            Console.WriteLine($"{enemy.GetName()} HP : {enemy.GetCurrentHP()}/{enemy.GetMaxHP()}\n");
 
             Console.WriteLine($"\n{enemy.GetName()}(이)가 {player.GetName()}에게 공격합니다.\n");
             enemy.Attack(player);
@@ -40,8 +81,3 @@ class Program
         }
     }
 }
-
-// 내일 할것
-// Console.ReadLine(); 이게 입력받는 것
-// Java에서 Scanner 역할을 한다고 함
-// 그리고 공격력하고 방어력 계산해서 로직 수정

@@ -24,7 +24,14 @@ namespace Character
 
         public void Attack(Character target)
         {
-            target.TakeDamage(this.AttackPower);
+            int calculatedDamage = this.AttackPower - target.Defense;
+
+            if (calculatedDamage < 0)
+            {
+                calculatedDamage = 0;
+            }
+
+            target.TakeDamage(calculatedDamage);
         }
 
         public void TakeDamage(int damage)
