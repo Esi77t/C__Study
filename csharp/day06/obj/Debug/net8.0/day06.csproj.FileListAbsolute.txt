@@ -1,0 +1,15 @@
+E:\cstudy\csharp\day06\bin\Debug\net8.0\day06.exe
+E:\cstudy\csharp\day06\bin\Debug\net8.0\day06.deps.json
+E:\cstudy\csharp\day06\bin\Debug\net8.0\day06.runtimeconfig.json
+E:\cstudy\csharp\day06\bin\Debug\net8.0\day06.dll
+E:\cstudy\csharp\day06\bin\Debug\net8.0\day06.pdb
+E:\cstudy\csharp\day06\obj\Debug\net8.0\day06.GeneratedMSBuildEditorConfig.editorconfig
+E:\cstudy\csharp\day06\obj\Debug\net8.0\day06.AssemblyInfoInputs.cache
+E:\cstudy\csharp\day06\obj\Debug\net8.0\day06.AssemblyInfo.cs
+E:\cstudy\csharp\day06\obj\Debug\net8.0\day06.csproj.CoreCompileInputs.cache
+E:\cstudy\csharp\day06\obj\Debug\net8.0\day06.sourcelink.json
+E:\cstudy\csharp\day06\obj\Debug\net8.0\day06.dll
+E:\cstudy\csharp\day06\obj\Debug\net8.0\refint\day06.dll
+E:\cstudy\csharp\day06\obj\Debug\net8.0\day06.pdb
+E:\cstudy\csharp\day06\obj\Debug\net8.0\day06.genruntimeconfig.cache
+E:\cstudy\csharp\day06\obj\Debug\net8.0\ref\day06.dll
