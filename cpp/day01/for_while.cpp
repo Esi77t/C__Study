@@ -2,12 +2,12 @@
 
 int main() {
     for(int i = 0; i < 3; i++) {
-        std::cout<< "¹Ýº¹" << i << "¹øÂ°" <<std::endl;
+        std::cout<< "ë°˜ë³µ" << i << "ë²ˆì§¸" <<std::endl;
     }
 
     int j = 0;
     while(j < 3) {
-        std::cout<< "¹Ýº¹¹® Å×½ºÆ®" <<std::endl;
+        std::cout<< "ë°˜ë³µë¬¸ìž…ë‹ˆë‹¤." <<std::endl;
         j++;
     }
 

@@ -7,5 +7,5 @@ int add(int a, int b) {
 int main() {
     int res = add(10, 7);
 
-    std::cout<< "ÇÕ : " << res << std::endl;
+    std::cout<< "í•©ê³„ : " << res << std::endl;
 }
